@@ -1,8 +1,33 @@
 h1 {
-  color: blueviolet;
-  font-family: "Geologica", sans-serif;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 96px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 .greeting {
   background: #f9f7fe;
+  text-align: center;
+}
+
+.greeting p {
+  font-size: 36px;
+  font-weight: bold;
+}
+.greetin h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn btn-branding {
+  background: blueviolet;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
