@@ -13,6 +13,7 @@ p {
 .greeting {
   background: #f9f7fe;
   text-align: center;
+  padding: 160px 0;
 }
 
 .greeting p {
@@ -24,7 +25,7 @@ p {
 }
 
 .btn-branding {
-  background: blueviolet;
+  background: #6c63ff;
   border-radius: 4px;
   color: white;
   font-size: 18px;
