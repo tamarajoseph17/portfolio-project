@@ -39,7 +39,7 @@ p {
 .greeting {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .greeting p {
@@ -54,7 +54,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 40px 20px;
 }
 
 .content h1 {
@@ -157,12 +157,12 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--branding-color);
+  font-family: var(--heading-font-family);
 }
 
 footer .social-links {
   margin: 0 20px;
   color: var(--branding-color);
-  background: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
@@ -181,10 +181,6 @@ footer .social-links {
 
   .btn {
     font-size: 18px;
-  }
-
-  .greeting {
-    padding: 80px 20px;
   }
 
   .content {
